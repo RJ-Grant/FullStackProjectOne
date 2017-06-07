@@ -1,6 +1,7 @@
 import media
 from lib import fresh_tomatoes
 
+#Creating 6 instances of Movie and assigning them to variables
 casino_royale = media.Movie("Casino Royale",
                             "James Bond takes on a new enemy Le Chiffre, in a game of poker more important that ever",
                             "http://static.rogerebert.com/uploads/movie/movie_poster/casino-royale-2007/large_toEaueEfDxX57y4J5MRRA7qsy5K.jpg",
@@ -31,7 +32,8 @@ focus = media.Movie("Focus",
                     "http://i.axs.com/2016/07/promoted-media-optimized_5788e78687c84.jpg",
                     "https://www.youtube.com/watch?v=MxCRgtdAuBo")
 
-
+#Placing the variables of Movie instances inside an array
 movies = [casino_royale, dark_knight, skyfall, django, wolf_of_wall_street, focus]
 
+#Passing the movies array to fresh_tomatoes to generate the webpage and open it
 fresh_tomatoes.open_movies_page(movies)
