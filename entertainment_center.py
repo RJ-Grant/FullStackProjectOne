@@ -6,8 +6,6 @@ casino_royale = media.Movie("Casino Royale",
                             "http://static.rogerebert.com/uploads/movie/movie_poster/casino-royale-2007/large_toEaueEfDxX57y4J5MRRA7qsy5K.jpg",
                             "https://www.youtube.com/watch?v=xK7PbujRUOk")
 
-#print casino_royale.trailer_youtube_url
-
 dark_knight = media.Movie("The Dark Knight",
                           "Batman takes on the greatest villain of all time: The Joker",
                           "http://static.rogerebert.com/uploads/movie/movie_poster/the-dark-knight-2008/large_1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg",
